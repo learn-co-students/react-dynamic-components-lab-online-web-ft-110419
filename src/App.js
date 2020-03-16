@@ -4,7 +4,7 @@ import ColorBox from './ColorBox.js'
 
 class App extends Component {
   
-  // Nothing needs to change here! 
+  // Nothing needs to change here!              <ColorBox opacity={1} />
   // Make note of what prop we are initially passing to `ColorBox` below!
   
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
           <BlogPost />
           <div id="seperator"></div>
           <div className="wrapper">
-            <ColorBox opacity={1} />
+          <ColorBox opacity={1} />
           </div>
       </div>
     )
@@ -21,3 +21,6 @@ class App extends Component {
 }
 
 export default App;
+
+
+           
